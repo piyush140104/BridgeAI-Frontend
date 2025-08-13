@@ -1,0 +1,26 @@
+/* Glassmorphism edit profile card with background color */
+.signup-card{
+    width: 380px;
+    padding: 2rem;
+    color: rgb(219, 207, 207);
+    background: rgb(53, 51, 51); /* Light transparent white */
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333; /* Ensure text is readable */
+  }
+  .signup-btn{
+    color: rgb(5, 135, 222);
+    background-color: white;
+    width: 300px;
+    font-weight: 700;
+  }
+  .login-text{
+    color:rgb(239, 239, 234);
+  }
+  .belli{
+    color: rgb(244, 209, 11);
+    font-weight: 600;
+    margin-top: 10px;
+  }
