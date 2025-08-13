@@ -155,7 +155,7 @@
 
 
 import React, { useState, useEffect } from "react";
-import "./Chatbot.css";
+import "./chatbot.css";
 import { Link } from "react-router-dom";
 
 const ChatbotPage = () => {

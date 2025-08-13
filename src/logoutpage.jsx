@@ -1,5 +1,5 @@
 import React from "react";
-import "./LogoutPage.css"; // Import the CSS file
+import "./logoutPage.css"; // Import the CSS file
 import { Link } from "react-router-dom";
 const LogoutPage = () => {
   const handleLogout = () => {
