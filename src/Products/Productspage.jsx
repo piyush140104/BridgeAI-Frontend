@@ -85,9 +85,9 @@ import "./Products.css"; // Make sure this file exists
 
 const ProductsPage = () => {
     const [products, setProducts] = useState([]);
-
+    const apiBaseUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
     useEffect(() => {
-        fetch("http://localhost:8000/api/v1/products") // Adjust URL if needed
+        fetch(`${apiBaseUrl}/api/v1/products`) // Adjust URL if needed
             .then(response => response.json())
             .then(data => setProducts(data))
             .catch(error => console.error("Error fetching products:", error));

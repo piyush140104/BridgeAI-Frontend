@@ -180,9 +180,9 @@ const ChatbotPage = () => {
     setInput("");
     setLoading(true);
     setIsTyping(true);
-
+    const apiBaseUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
     try {
-      const response = await fetch("http://localhost:8000/api/v1/chatbot/query", {
+      const response = await fetch(`${apiBaseUrl}/api/v1/chatbot/query`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userQuery: input }),

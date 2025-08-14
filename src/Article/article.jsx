@@ -75,9 +75,9 @@ const ArticlesPage = () => {
     const fetchArticles = async () => {
         setLoading(true);
         setError(null);
-
+        const apiBaseUrl = process.env.REACT_APP_API_URL || "http://localhost:8000";
         try {
-            const response = await axios.get(`http://localhost:8000/api/v1/articles`, {
+            const response = await axios.get(`${apiBaseUrl}/api/v1/articles`, {
                 params: { query: query.trim() || "entrepreneurship" }, // Default topic
             });
             setArticles(response.data);

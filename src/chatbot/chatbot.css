@@ -9,14 +9,12 @@ body {
   margin: 0;
   animation: fadeIn 1.5s ease-in-out;
 }
-
 .chatbot-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-
 .chatbot {
   width: 1000px;
   background: rgba(255, 255, 255, 0.1);
