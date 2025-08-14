@@ -5,7 +5,7 @@ const API_BASE_URL =
   process.env.REACT_APP_API_URL || // Set in Vercel frontend env vars for production
   (window.location.hostname === "localhost"
     ? "http://localhost:8000/api/v1" // Local backend
-    : "https://bridge-ai-backend-peqk.vercel.app/"); // Deployed backend
+    : "https://bridgeai-backend.onrender.com/api/v1"); // Deployed backend
 
 const api = axios.create({
   baseURL: API_BASE_URL,
