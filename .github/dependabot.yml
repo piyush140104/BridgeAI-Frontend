@@ -1,0 +1,1118 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /node_modules/.vite/deps
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@ampproject/remapping
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/code-frame
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/compat-data
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/core
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/generator
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/helper-compilation-targets
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/helper-module-imports
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/helper-module-transforms
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/helper-plugin-utils
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/helper-string-parser
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/helper-validator-identifier
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/helper-validator-option
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/helpers
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/parser
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/plugin-transform-react-jsx-self
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/plugin-transform-react-jsx-source
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/template
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/traverse/node_modules/globals
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/traverse
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@babel/types
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@esbuild/darwin-arm64
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@eslint-community/eslint-utils
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@eslint-community/regexpp
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@eslint/config-array
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@eslint/config-helpers
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@eslint/core
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@eslint/eslintrc/node_modules/globals
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@eslint/eslintrc
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@eslint/js
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@eslint/object-schema
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@eslint/plugin-kit
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@humanfs/core
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@humanfs/node/node_modules/@humanwhocodes/retry
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@humanfs/node
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@humanwhocodes/module-importer
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@humanwhocodes/retry
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@jridgewell/gen-mapping
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@jridgewell/resolve-uri
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@jridgewell/set-array
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@jridgewell/sourcemap-codec
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@jridgewell/trace-mapping
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@rollup/rollup-darwin-arm64
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@tailwindcss/node
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@tailwindcss/oxide-darwin-arm64
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@tailwindcss/oxide
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@tailwindcss/vite
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@types/babel__core
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@types/babel__generator
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@types/babel__template
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@types/babel__traverse
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@types/estree
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@types/json-schema
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@types/react-dom
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@types/react
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/@vitejs/plugin-react
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/accepts
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/acorn-jsx
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/acorn
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/ajv
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/ansi-styles
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/argparse
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/array-flatten
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/asynckit
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/autoprefixer
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/axios
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/balanced-match
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/body-parser/node_modules/debug
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/body-parser/node_modules/ms
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/body-parser
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/brace-expansion
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/browserslist
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/bytes
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/call-bind-apply-helpers
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/call-bound
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/callsites
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/caniuse-lite
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/chalk
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/color-convert
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/color-name
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/combined-stream
+    schedule:
+      interval: weekly
+  - package-ecosystem: yarn
+    directory: /node_modules/combined-stream
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/concat-map
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/content-disposition
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/content-type
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/convert-source-map
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/cookie-signature
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/cookie
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/cors
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/cross-spawn
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/csstype
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/debug
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/deep-is
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/delayed-stream
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/depd
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/destroy
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/detect-libc
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/dunder-proto
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/ee-first
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/electron-to-chromium
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/encodeurl
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/enhanced-resolve
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/es-define-property
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/es-errors
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/es-object-atoms
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/es-set-tostringtag
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/esbuild
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/escalade
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/escape-html
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/escape-string-regexp
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/eslint-plugin-react-hooks
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/eslint-plugin-react-refresh
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/eslint-scope
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/eslint-visitor-keys
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/eslint
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/espree
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/esquery
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/esrecurse
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/estraverse
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/esutils
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/etag
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/express/node_modules/cookie
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/express/node_modules/debug
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/express/node_modules/ms
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/express
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/fast-deep-equal
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/fast-json-stable-stringify
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/fast-levenshtein
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/fdir
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/file-entry-cache
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/finalhandler/node_modules/debug
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/finalhandler/node_modules/ms
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/finalhandler
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/find-up
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/flat-cache
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/flatted/cjs
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/flatted
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/follow-redirects
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/form-data
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/forwarded
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/fraction.js
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/framer-motion/client
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/framer-motion/dom/mini
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/framer-motion/dom
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/framer-motion/m
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/framer-motion/mini
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/framer-motion
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/fresh
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/fsevents
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/function-bind
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/gensync
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/get-intrinsic
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/get-proto
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/glob-parent
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/globals
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/gopd
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/graceful-fs
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/has-flag
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/has-symbols
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/has-tostringtag
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/hasown
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/http-errors
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/iconv-lite
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/ignore
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/import-fresh
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/imurmurhash
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/inherits
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/ipaddr.js
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/is-extglob
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/is-glob
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/isexe
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/jiti
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/js-tokens
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/js-yaml
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/jsesc
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/json-buffer
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/json-schema-traverse
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/json-stable-stringify-without-jsonify
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/json5
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/keyv
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/levn
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/lightningcss-darwin-arm64
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/lightningcss
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/locate-path
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/lodash.merge
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/lru-cache
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/math-intrinsics
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/media-typer
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/merge-descriptors
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/methods
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/mime-db
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/mime-types
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/mime
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/minimatch
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/motion-dom
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/motion-utils
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/ms
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/nanoid/async
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/nanoid/non-secure
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/nanoid
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/nanoid/url-alphabet
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/natural-compare
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/negotiator
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/node-releases
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/normalize-range
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/object-assign
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/object-inspect
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/on-finished
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/optionator
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/p-limit
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/p-locate
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/parent-module
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/parseurl
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/path-exists
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/path-key
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/path-to-regexp
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/picocolors
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/picomatch
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/postcss-value-parser
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/postcss
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/prelude-ls
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/proxy-addr
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/proxy-from-env
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/punycode
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/qs
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/range-parser
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/raw-body
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/react-dom
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/react-refresh
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/react-router-dom
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/react-router
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/react
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/resolve-from
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/rollup/dist/es
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/rollup
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/safe-buffer
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/safer-buffer
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/scheduler
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/semver
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/send/node_modules/debug/node_modules/ms
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/send/node_modules/debug
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/send/node_modules/encodeurl
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/send
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/serve-static
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/set-cookie-parser
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/setprototypeof
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/shebang-command
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/shebang-regex
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/side-channel-list
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/side-channel-map
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/side-channel-weakmap
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/side-channel
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/source-map-js
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/statuses
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/strip-json-comments
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/supports-color
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/tailwindcss
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/tapable
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/tinyglobby
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/toidentifier
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/tslib/modules
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/tslib
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/type-check
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/type-is
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/unpipe
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/update-browserslist-db
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/uri-js
+    schedule:
+      interval: weekly
+  - package-ecosystem: yarn
+    directory: /node_modules/uri-js
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/utils-merge
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/vary
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/vite
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/vite/types
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/which
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/word-wrap
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/yallist
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /node_modules/yocto-queue
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: github-actions
+    directory: /.github/workflows
+    schedule:
+      interval: weekly
